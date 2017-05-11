@@ -5,7 +5,8 @@ WORKDIR $PROJECT
 COPY . $PROJECT
 
 RUN go test $(go list ./... | grep -v /vendor/) && \
-	go build -o bin/iploc
+	go build -o bin/iploc && \
+	cp index.tpl bin/
 
 EXPOSE 80
 CMD ["./bin/iploc"]

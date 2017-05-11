@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"gopkg.in/kataras/iris.v6"
 	"gopkg.in/kataras/iris.v6/adaptors/httprouter"
+	"html/template"
 	"io/ioutil"
 	"log"
 	"net/http"
@@ -42,15 +43,22 @@ func handleGetRoot(ctx *iris.Context) {
 		return
 	}
 
-	fmt.Printf("%+v\n", loc)
+	// fmt.Printf("%+v\n", loc)
 
-	html, err := ioutil.ReadFile("./index.tmpl")
+	tpl, err := ioutil.ReadFile("./index.tpl")
 	if err != nil {
 		log.Printf("read html template error: %v\n", err)
 		return
 	}
 
-	ctx.HTML(iris.StatusOK, string(html))
+	t, err := template.New("index").Parse(string(tpl))
+	err = t.Execute(ctx.ResponseWriter, loc)
+	if err != nil {
+		log.Printf("execute template error: %v\n", err)
+		return
+	}
+
+	// ctx.HTML(iris.StatusOK, string(tpl))
 	return
 }
 
