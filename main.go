@@ -43,7 +43,7 @@ func handleGetRoot(ctx *iris.Context) {
 		return
 	}
 
-	// fmt.Printf("%+v\n", loc)
+	fmt.Printf("%+v\n", loc)
 
 	tpl, err := ioutil.ReadFile("./index.tpl")
 	if err != nil {
