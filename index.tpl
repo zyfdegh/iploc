@@ -1,12 +1,12 @@
 <html>
     <head>
-        <title>法大傻的钓鱼网站</title>
+        <title>福特驴的钓鱼网站</title>
     </head>
     <body>
         <h1>装逼日报：五月装逼指数达176，同比上涨6.3%</h1>
         <p>装逼日期：2017-05-12 00:25</p>
         <p>
-            您的位置
+            您的位置，服务端已记录
             IP: {{.Data.IP}}<br>
             Area: {{.Data.Area}}<br>
             Region: {{.Data.Region}}<br>

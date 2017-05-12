@@ -17,6 +17,20 @@
 			"revisionTime": "2017-03-28T05:04:31Z"
 		},
 		{
+			"checksumSHA1": "u5xxqHlySFvS4nqstC2cfgoQHOw=",
+			"origin": "gopkg.in/kataras/iris.v6/vendor/github.com/geekypanda/httpcache/cfg",
+			"path": "github.com/geekypanda/httpcache/cfg",
+			"revision": "2f13cd26528d47e516919eb6c94c3e4782e3aa18",
+			"revisionTime": "2017-04-14T20:29:05Z"
+		},
+		{
+			"checksumSHA1": "i8lHfOzcncLu0JA9FX/TBoFfGmo=",
+			"origin": "gopkg.in/kataras/iris.v6/vendor/github.com/geekypanda/httpcache/entry",
+			"path": "github.com/geekypanda/httpcache/entry",
+			"revision": "2f13cd26528d47e516919eb6c94c3e4782e3aa18",
+			"revisionTime": "2017-04-14T20:29:05Z"
+		},
+		{
 			"checksumSHA1": "fq3MmqH0EqNxRjrvcklpVzKbEJE=",
 			"origin": "gopkg.in/kataras/iris.v6/vendor/github.com/geekypanda/httpcache/internal",
 			"path": "github.com/geekypanda/httpcache/internal",
@@ -43,6 +57,34 @@
 			"path": "github.com/geekypanda/httpcache/internal/server",
 			"revision": "1abc3410a8db56ce7299bb11288659189a747041",
 			"revisionTime": "2017-03-28T05:04:31Z"
+		},
+		{
+			"checksumSHA1": "3lDYXFidYqdIB4qQVJGU17b7xm8=",
+			"origin": "gopkg.in/kataras/iris.v6/vendor/github.com/geekypanda/httpcache/nethttp",
+			"path": "github.com/geekypanda/httpcache/nethttp",
+			"revision": "2f13cd26528d47e516919eb6c94c3e4782e3aa18",
+			"revisionTime": "2017-04-14T20:29:05Z"
+		},
+		{
+			"checksumSHA1": "VGBRQPUqhUMo34U47i4K8/6KqOM=",
+			"origin": "gopkg.in/kataras/iris.v6/vendor/github.com/geekypanda/httpcache/nethttp/rule",
+			"path": "github.com/geekypanda/httpcache/nethttp/rule",
+			"revision": "2f13cd26528d47e516919eb6c94c3e4782e3aa18",
+			"revisionTime": "2017-04-14T20:29:05Z"
+		},
+		{
+			"checksumSHA1": "9ZnUe93MMGVaChw9/50ZQxvUiEI=",
+			"origin": "gopkg.in/kataras/iris.v6/vendor/github.com/geekypanda/httpcache/ruleset",
+			"path": "github.com/geekypanda/httpcache/ruleset",
+			"revision": "2f13cd26528d47e516919eb6c94c3e4782e3aa18",
+			"revisionTime": "2017-04-14T20:29:05Z"
+		},
+		{
+			"checksumSHA1": "fmC6tcD47DmdYzrQ/iIvFyJPA7c=",
+			"origin": "gopkg.in/kataras/iris.v6/vendor/github.com/geekypanda/httpcache/uri",
+			"path": "github.com/geekypanda/httpcache/uri",
+			"revision": "2f13cd26528d47e516919eb6c94c3e4782e3aa18",
+			"revisionTime": "2017-04-14T20:29:05Z"
 		},
 		{
 			"checksumSHA1": "nosz9CG1azo/ZEmIYhxzKNN2w3c=",
