@@ -5,7 +5,7 @@ dep-init:
 	govendor init
 
 dep-update:
-	govenor sync
+	govendor sync
 	govendor remove +unused
 	govendor add +external
 
